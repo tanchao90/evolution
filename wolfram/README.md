@@ -61,7 +61,7 @@ Select[**Permutations@Range[10]**, #[[9]] + #[[3]] + #[[5]] + #[[10]] == #[[10]]
 最终的结果是[1,2,3,4,5,6,7,8,9,10]序列无解；[1,2,3,4,5,6,7,7,7,8]和[1,2,3,4,5,6,8,9,10,12] 序列各有24种不同的结果。
 下图是[1,2,3,4,5,6,8,9,10,12]序列解之一，其每边和为24：
 
-!(五角星有解序列)[https://github.com/tanchao90/evolution/blob/master/wolfram/res/image_4.png]
+![五角星有解序列](https://github.com/tanchao90/evolution/blob/master/wolfram/res/image_4.png)
 
 ### 总结
 通过五角星这个题目接触Wolfram，顺便了解了一下，在此小记，以后有需要的时候再深入学习。
