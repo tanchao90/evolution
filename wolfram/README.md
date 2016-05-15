@@ -6,6 +6,7 @@
 > 斯蒂芬·沃尔夫勒姆这个名字，在中文世界里可能远谈不上家喻户晓；但他的英文名Stephen Wolfram恐怕反而却要熟悉得多。大名鼎鼎的数学软件Mathematica每次启动的时候都会用大红字提醒你这是Wolfram出品；而“计算知识引擎” WolframAlpha更是每一个极客必备的网站。
 
 感觉很强大，就下载了 Wolfram Mathematica 的桌面软件体验了一下，本文的主要目的是：
+
 - 了解 **Wolfram**
 - 通过 **Mathematica** 验证一下五角星问题
 - 用 **Mathematica** 尝试了一些例子
@@ -22,10 +23,10 @@
 [Wolfram官网](http://wolfram.com/)上列举了一大堆，包括工程研发，教育，网页和软件，金融、统计与商业分析，科学，趋势几个大的方面，通过个人的简单体验，感觉确实挺方便的，通过简单的语句就能绘制出复杂的图形，至少在辅助工作方面还挺有用的，比如下面的简单例子：
 - 绘制一个交互式界面，动态调整三角函数曲线的周期
 	- `Manipulate[Plot[Sin[a x], {x, 0, 10}], {a, 1, 5}]`
-	- ![三角函数曲线](https://github.com/tanchao90/evolution/tree/master/wolfram/res/image_1.png)
+	- ![三角函数曲线](https://github.com/tanchao90/evolution/blob/master/wolfram/res/image_1.png)
 - 绘制一个折线图
 	- `ListLinePlot[{5, 6, 1, 5, 7, 8, 1, 31}]`
-	- ![折线图](https://github.com/tanchao90/evolution/tree/master/wolfram/res/image_2.png)
+	- ![折线图](https://github.com/tanchao90/evolution/blob/master/wolfram/res/image_2.png)
 
 **Wolfram官网** 提供了比较详细的资料，有兴趣的完全可以通过官网资料入门。
 
@@ -43,7 +44,7 @@
 ```
 Graph[{1 <-> 2, 2 <-> 3, 3 <-> 4, 4 <-> 5, 5 <-> 6, 6 <-> 7, 7 <-> 8, 8 <-> 2, 2 <-> 9, 9 <-> 3, 3 <-> 5, 5 <-> 10, 10 <-> 6, 6 <-> 8, 8 <-> 1}, VertexLabels -> "Name"]
 ```
-![五角星](https://github.com/tanchao90/evolution/tree/master/wolfram/res/image_3.png)
+![五角星](https://github.com/tanchao90/evolution/blob/master/wolfram/res/image_3.png)
 
 下面的语句是用给定的序列生成所有的全排列，并且选出满足条件的序列：
 ```
@@ -59,7 +60,8 @@ Select[**Permutations@Range[10]**, #[[9]] + #[[3]] + #[[5]] + #[[10]] == #[[10]]
 其中的数字代表每个全排列中的十个数字，从第一个到第十个，将其对应到上面的五角星图案中，等式刚好是五条边的和。
 最终的结果是[1,2,3,4,5,6,7,8,9,10]序列无解；[1,2,3,4,5,6,7,7,7,8]和[1,2,3,4,5,6,8,9,10,12] 序列各有24种不同的结果。
 下图是[1,2,3,4,5,6,8,9,10,12]序列解之一，其每边和为24：
-!(五角星有解序列)[https://github.com/tanchao90/evolution/tree/master/wolfram/res/image_4.png]
+
+!(五角星有解序列)[https://github.com/tanchao90/evolution/blob/master/wolfram/res/image_4.png]
 
 ### 总结
 通过五角星这个题目接触Wolfram，顺便了解了一下，在此小记，以后有需要的时候再深入学习。
