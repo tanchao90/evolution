@@ -13,7 +13,7 @@
 
 ### 安装
 - [Wolfram官网](http://wolfram.com/) PS：网站效果比较绚丽，但是访问速度有点不给力。
-- 下载：官方下载 or [点击这里](http://pan.baidu.com/s/1i4VBCWX)
+- 下载：官方下载 or [点击这里(内含注册机)](http://pan.baidu.com/s/1i4VBCWX)
 - 安装
 	- [在 Windows 上安装 Wolfram 系统(官网)](http://support.wolfram.com/kb/12440)
 	- [常用数学软件：如何激活Mathematica 9](http://jingyan.baidu.com/article/1876c852b44b8a890b1376ef.html)
