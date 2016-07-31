@@ -6,13 +6,13 @@ __author__ = 'Tan Chao'
 Python logging module wrapper.
 '''
 
-import new
 import logging
 import logging.handlers as LH
+import new
+import os
+import platform
 import time
 import traceback
-import platform
-import os
 
 
 # Logging Levels
