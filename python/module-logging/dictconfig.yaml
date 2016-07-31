@@ -1,0 +1,46 @@
+
+version: 1
+
+formatters:
+  brief:
+    # configuration for formatter with id 'brief' goes here
+    format: '%(message)s'
+  precise:
+    # configuration for formatter with id 'precise' goes here
+    format: '%(asctime)s %(levelname)-8s %(name)-15s %(message)s'
+    datefmt: '%Y-%m-%d %H:%M:%S'
+
+filters:
+  allow_foo:
+     name : foo
+  allow_bar:
+    name : bar
+
+handlers:
+  console:
+    class : logging.StreamHandler
+    formatter: brief
+    level   : INFO
+    filters: [allow_foo]
+    stream  : ext://sys.stdout
+  console_bar:
+    class : logging.StreamHandler
+    formatter: brief
+    level   : INFO
+    filters: [allow_bar]
+    stream  : ext://sys.stdout
+  file:
+    class : logging.handlers.RotatingFileHandler
+    formatter: precise
+    filename: logconfig.log
+    maxBytes: 1024
+    backupCount: 3
+
+loggers:
+  foo.bar.baz:
+    # other configuration for logger 'foo.bar.baz'
+    handlers: [console, file]
+  foo:
+    handlers: [console]
+  bar:
+    handlers: [console_bar]

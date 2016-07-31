@@ -1,0 +1,7 @@
+# python
+*.py[cod]
+
+# log
+*.log
+
+
