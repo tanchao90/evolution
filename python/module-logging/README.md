@@ -18,3 +18,4 @@
 - [logging — Logging facility for Python](https://docs.python.org/3/library/logging.html)
 - [logging.config — Logging configuration](https://docs.python.org/3/library/logging.config.html)
 - [logging.handlers — Logging handlers](https://docs.python.org/3/library/logging.handlers.html)
+- [How can I add an empty directory to a Git repository?](http://stackoverflow.com/questions/115983/how-can-i-add-an-empty-directory-to-a-git-repository)
