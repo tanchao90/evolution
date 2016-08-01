@@ -155,7 +155,7 @@ def main():
 	logger.warn('warn message')
 	logger.error('error message')
 	logger.critical('critical message')
-	logger.exception('exception message')
+	# logger.exception('exception message') # python3 error
 
 	LoggerManager.set_log_level(LEVEL_DEBUG)
 	logger.debug('debug message new......')
