@@ -8,11 +8,12 @@ Python logging module wrapper.
 
 import logging
 import logging.handlers as LH
-import types
 import os
 import platform
+import sys
 import time
 import traceback
+import types
 
 
 # Logging Levels
@@ -52,6 +53,14 @@ def get_cur_time():
 	return time.strftime(DATE_FMT)
 
 
+def method_type(method, instance):
+	if sys.version_info >= (3, 2): # 3.x
+		new_method = types.MethodType(method, instance)
+	else: # 2.x
+		new_method = types.MethodType(method, instance, instance.__class__)
+	return new_method
+
+
 class LoggerManager(object):
 	created_loggers = set()
 	log_level = LEVEL_DEBUG
@@ -75,7 +84,7 @@ class LoggerManager(object):
 	def create_logger(logger_name):
 		# create logger
 		logger = logging.getLogger(logger_name)
-		logger.log_except = types.MethodType(log_traceback_hook, logger, logger.__class__) # add a method to logger
+		logger.log_except = method_type(log_traceback_hook, logger) # add a method to logger
 		logger.setLevel(LoggerManager.log_level)
 
 		# create handler
