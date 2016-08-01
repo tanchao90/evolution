@@ -8,7 +8,7 @@ Python logging module wrapper.
 
 import logging
 import logging.handlers as LH
-import new
+import types
 import os
 import platform
 import time
@@ -75,7 +75,7 @@ class LoggerManager(object):
 	def create_logger(logger_name):
 		# create logger
 		logger = logging.getLogger(logger_name)
-		logger.log_except = new.instancemethod(log_traceback_hook, logger, logger.__class__) # add a method to logger
+		logger.log_except = types.MethodType(log_traceback_hook, logger, logger.__class__) # add a method to logger
 		logger.setLevel(LoggerManager.log_level)
 
 		# create handler
