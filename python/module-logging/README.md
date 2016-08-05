@@ -16,12 +16,12 @@
 
 ### syslog
 ##### syslog file location in my System(Ubuntu)
-/var/log/syslog
-/var/log/messages
+- /var/log/syslog
+- /var/log/messages
 
 ##### syslog.conf
-**general**:  /etc/syslog.conf
-**Ubuntu**: /etc/rsyslog.conf
+- **general**:  /etc/syslog.conf
+- **Ubuntu**: /etc/rsyslog.conf
 
 
 ### Reference
