@@ -20,6 +20,8 @@
 - `npm init`
 - `npm install vue`
 
-
-
+#### Command
+- `vue create project-name`
+- `vue ui` 图形化界面创建项目
+- `npx vue-cli-service build --modern` 使用现代模式打包
 
