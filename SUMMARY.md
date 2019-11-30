@@ -15,4 +15,3 @@
 
 * [Yet another page](another-page.md)
 
-

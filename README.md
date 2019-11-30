@@ -1,8 +1,6 @@
 # Evolution
 The evolutionary history of a programmer.
-
 ![](https://github.com/TanChao90/evolution/raw/master/res/evolution.jpg)
-
 
 ## Basic
 - [💻📖对开发人员有用的定律、理论、原则和模式。](https://github.com/nusr/hacker-laws-zh) 👍
@@ -29,7 +27,12 @@ The evolutionary history of a programmer.
 ## 英语
 - [English-level-up-tips-for-Chinese](https://github.com/byoungd/english-level-up-tips-for-Chinese) 英语进阶指南
 
+## Website
 
+### 入门
+
+* [runoob-菜鸟教程](http://www.runoob.com/)
+* [极客学院](http://www.jikexueyuan.com/)
 
 ## Book
 #### 基础
@@ -44,10 +47,9 @@ The evolutionary history of a programmer.
 #### 编程信息汇总
 - [Growth: 全栈增长工程师指南](https://growth.phodal.com/)
 
+### 分布式
 
-## License
-The evolution repo is released under the [MIT License](https://opensource.org/licenses/MIT).
-
+* [《Designing Data-Intensive Application》DDIA中文](https://github.com/Vonng/ddia)
 
 
 ## 代码库
@@ -81,3 +83,7 @@ The evolution repo is released under the [MIT License](https://opensource.org/li
 - [Ethereum Network Status 可视化以太坊节点状态](https://ethstats.net/)
 - [Libra](https://libra.org/zh-CN/) Facebook 区块链
 - [谜恋猫](https://www.cryptokitties.co/) 首款区块链游戏
+
+
+## License
+The evolution repo is released under the [MIT License](https://opensource.org/licenses/MIT).
