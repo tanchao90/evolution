@@ -1,8 +1,8 @@
 # Docker Python
 - [python](https://hub.docker.com/_/python/)
 
-## 示例
-#### 制作自己的镜像
+## 制作自己的镜像
+### 示例
 ```
 FROM python:3
 
@@ -16,5 +16,3 @@ COPY . .
 CMD [ "python", "./your-daemon-or-script.py" ]
 ```
 
-### test
-#### test2

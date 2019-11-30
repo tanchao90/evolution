@@ -1,4 +1,4 @@
-# MySQL Config
+# MySQL 配置
 
 ## `my.cnf`
 MySQL 配置文件，可在其中增加下面内容修改字符集

@@ -3,7 +3,7 @@
 - [mysql](https://hub.docker.com/_/mysql/) Docker 官方
 
 ## 部署
-#### Docker 命令部署
+### Docker 命令部署
 - `$ docker pull mysql/mysql-server:latest`
 - `$ docker run --name=mysql-docker -d mysql/mysql-server:latest`
 - `$ docker ps`
@@ -15,7 +15,7 @@
 连接数据库之后，需要重置默认密码才能继续操作：
 - `mysql> ALTER USER 'root'@'localhost' IDENTIFIED BY 'password';`
 
-#### Docker Compose 部署
+### Docker Compose 部署
 配置文件 `docker-compose.yml`
 
 ```
@@ -34,5 +34,5 @@ services:
       MYSQL_ROOT_PASSWORD: init_password
 ```
 
-## 注意点
-- 修改 MySQL 配置文件 `my.cnf`，修改默认字符集，具体参考 [MySQL Config](/database/mysql/config.md)
+## 其他
+- 修改 MySQL 配置文件 `my.cnf`，修改默认字符集，具体参考 [MySQL 配置](/database/mysql/config.md)
