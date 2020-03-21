@@ -12,6 +12,7 @@
 * [zero](indie-hackers/README.md)
 
 ## 生活
+* [游戏](life/game.md)
 
 <!-- Gitbook Docs Example -->
 ## Use headings to create page groups like this one​
