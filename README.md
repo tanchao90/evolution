@@ -1,7 +1,10 @@
 # Evolution
 The evolutionary history of a programmer.
 
-![](https://github.com/TanChao90/evolution/raw/master/assets/images/evolution.jpg)
+![](/assets/images/evolution.jpg)
+
+![](https://github.com/tanchao90/evolution/raw/master/assets/images/evolution.jpg)
+
 
 ## 说明
 本仓库主要记录笔者从2008年就读计算机专业以来的成长历程，主要有下面几点目的：
