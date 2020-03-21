@@ -1,10 +1,11 @@
-# Evolution
+## Evolution
 The evolutionary history of a programmer.
 
 ![](/assets/images/evolution.jpg)
 
 ## 说明
 本仓库主要记录笔者从2008年就读计算机专业以来的成长历程，主要有下面几点目的：
+
 1. 将学到的知识做一些简单的总结和梳理，便于日后回顾；
 2. 将接触到的书籍、博客、作品、工具等资源进行整理，筛选出一些优秀的沉淀下来；
 3. 对自己接触过、学过、做过、感兴趣的东西做个记录，留下一些足迹；
