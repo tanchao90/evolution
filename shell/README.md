@@ -1,5 +1,0 @@
-
-# shell 
-
-- tools
-- code snippet
