@@ -14,6 +14,9 @@
 ## 生活
 * [游戏](life/game.md)
 
+## 游戏开发
+* [游戏开发](game/README.md)
+
 <!-- Gitbook Docs Example -->
 ## Use headings to create page groups like this one​
 
