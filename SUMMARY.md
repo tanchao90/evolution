@@ -1,5 +1,10 @@
-## 编程
 
+
+## Hello World
+* [准备工作](starter/README.md)
+    * [科学上网][/starter/scientific-internet-access.md]
+
+## 编程
 * [数据库](server/database/README.md)
     * [MySQL](server/database/mysql/README.md)
         * [MySQL 配置](server/database/mysql/config.md)
