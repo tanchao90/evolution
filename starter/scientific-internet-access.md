@@ -34,7 +34,9 @@ Mac 终端默认未开启代理，即是 ClashX 启用了系统代理，依旧�
 在对应的 Shell 配置文件中开启 `终端代理`，我使用 [Oh My Zsh](https://ohmyz.sh/)，所以编辑 `~/.zshrc` 配置文件即可。
 
 第一步：`vim ~/.zshrc` 打开 Shell 配置文件
+
 第二步：在文件末尾增加下面的内容
+
 ```shell
 # 终端代理配置
 # 开启/关闭 终端代理，将其封装成方法，方便在命令行调用
@@ -56,11 +58,13 @@ function proxyOff () {
 # 默认开启
 proxyOn
 ```
+
 第三步：`source ~/.zshrc` 加载配置，立即生效配置
 
 ### Git 全局代理
 
 在终端依此执行下面命令：
+
 ```shell
 # 设置全局 HTTP 代理
 git config --global https.proxy http://127.0.0.1:7890
