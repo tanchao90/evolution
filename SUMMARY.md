@@ -2,7 +2,8 @@
 
 ## Hello World
 * [准备工作](starter/README.md)
-    * [科学上网][/starter/scientific-internet-access.md]
+    * [科学上网](starter/scientific-internet-access.md)
+    * [安装软件](starter/install-software.md)
 
 ## 编程
 * [数据库](server/database/README.md)
