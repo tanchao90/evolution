@@ -16,6 +16,7 @@
 
 ## 游戏开发
 * [游戏开发](game/README.md)
+* [游戏开发技术](game/technology.md)
 
 <!-- Gitbook Docs Example -->
 ## Use headings to create page groups like this one​
